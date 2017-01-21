@@ -32,6 +32,8 @@ public class colorFire : MonoBehaviour {
 			beamGreen = false;
 			beamBlue = false;
 
+			prisimColor = Color.red;
+
 
 
 
