@@ -5,13 +5,14 @@ public class colorFire : MonoBehaviour {
 
 	public bool beamRed, beamGreen, beamBlue; 
 	public float beamPower;
-	//public Rigidbody RB1;
+
 	public forC1 C1;
 	public ForC2 C2;
 	public ForC3 C3;
 	public ForC4 C4;
 	public ForC5 C5;
 
+	public Material prisimColor;
 
 	void Start () {
 
@@ -30,6 +31,8 @@ public class colorFire : MonoBehaviour {
 			beamRed = true;
 			beamGreen = false;
 			beamBlue = false;
+
+
 
 
 	
